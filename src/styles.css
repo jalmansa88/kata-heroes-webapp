@@ -9,6 +9,10 @@ body {
     animation-fill-mode: both;
 }
 
+.img-logo {
+    width: 100px;
+}
+
 .fast {
     -webkit-animation-duration: 0.4s;
     animation-duration: 0.4s;

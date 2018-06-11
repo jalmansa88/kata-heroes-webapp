@@ -11,13 +11,11 @@ export class HeroesComponent implements OnInit {
   heroes: Heroe[] = [];
 
   constructor( private heroesService: HeroesService, private router: Router ) {
-    console.log("heroes constructor");
 
   }
 
   ngOnInit() {
     this.heroes = this.heroesService.getHeroes();
-    console.log(this.heroes);
   }
 
   verHeroe(i: number) {
