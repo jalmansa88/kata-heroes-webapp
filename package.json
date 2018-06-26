@@ -2,13 +2,13 @@
     "name": "spa",
     "version": "0.0.0",
     "scripts": {
-        "postinstall": "ng build --aot -prod",
         "ng": "ng",
         "start": "node server.js",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "postinstall": "ng build --prod"
     },
     "engines": {
         "node": "8.11.2",
